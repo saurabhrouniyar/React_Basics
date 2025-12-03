@@ -20,7 +20,7 @@ Backend
     Mongoose ORM
     REST API Architecture
 
-🎯 Learning Objectives Covered
+🎯 Learning Objectives Covered :-
 This project covers topics from the Web Development syllabus:
 React
 ✔ JSX & Rendering
@@ -43,21 +43,3 @@ Node.js & Express
 ✔ MongoDB CRUD operations
 ✔ Mongoose schema & model
 
-
-student-management/
-│── backend/
-│   ├── server.js
-│   ├── models/
-│   │   └── Student.js
-│   ├── routes/
-│       └── studentRoutes.js
-│
-│── frontend/
-    ├── public/
-    ├── src/
-    │   ├── App.js
-    │   ├── components/
-    │   │   ├── Navbar.js
-    │   │   ├── StudentList.js
-    │   │   ├── AddStudent.js
-    │   │   └── EditStudent.js
