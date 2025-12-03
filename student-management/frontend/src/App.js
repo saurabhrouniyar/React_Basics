@@ -1,0 +1,18 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import StudentList from "./components/StudentList";
+import AddStudent from "./components/AddStudent";
+import EditStudent from "./components/EditStudent";
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<StudentList />} />
+        <Route path="/add" element={<AddStudent />} />
+        <Route path="/edit/:id" element={<EditStudent />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
